@@ -1,0 +1,10 @@
+#img
+*.png
+*.jpg
+*.svg
+*.gif
+!.css/style.css
+index_backup.html
+.env
+config.php
+node_modules/

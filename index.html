@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza | Software Developer</title>
+    <link rel="stylesheet" href="css/style.css?v=5">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a href="#home" class="logo">
+                <img src="img/logo.svg" alt="Logo">
+            </a>
+            <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-right" id="nav-right">
+                <div class="nav-links">
+                    <a href="#home" data-i18n="home">Home</a>
+                    <a href="#about" data-i18n="about">About</a>
+                    <a href="#projects" data-i18n="projects">Projects</a>
+                    <a href="#news" data-i18n="news">News</a>
+                    <a href="#contact" data-i18n="contact">Contact</a>
+                </div>
+                <div class="language-switcher">
+                    <select id="language-selector">
+                        <option value="en">English</option>
+                        <option value="tr">Türkçe</option>
+                        <option value="de">Deutsch</option>
+                        <option value="ru">Русский</option>
+                    </select>
+                </div>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fa-solid fa-sun"></i>
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Home Section -->
+        <section id="home">
+            <div class="hero-section">
+                <div class="hero-content">
+                    <h1 class="hero-title" data-i18n="heroTitle">Hello, I'm Hamza<br>Software Developer</h1>
+                    <p data-i18n="heroDesc">I develop web, mobile, and desktop applications. I have a strong foundation
+                        in web and mobile
+                        development and love learning new technologies.</p>
+                    <a href="#projects" class="btn" data-i18n="viewProjects">View Projects</a>
+                </div>
+                <div class="hero-image animate__animated animate__fadeInRight">
+                    <img src="img/hamza.jpeg" style="border-radius: 50%;" alt="Coding Illustration" onerror="this.style.display='none'">
+                </div>
+            </div>
+
+            <div class="skills-section">
+                <h2 data-i18n="skillsTitle">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fa-brands fa-html5 skill-icon"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-css3-alt skill-icon"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-js skill-icon"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-python skill-icon"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-git-alt skill-icon"></i>
+                        <span>Git</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-code skill-icon"></i>
+                        <span>C#</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-window-maximize skill-icon"></i>
+                        <span>ASP.NET Core</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-window-maximize skill-icon"></i>
+                        <span>Numpy</span>
+                    </div>
+                     <div class="skill-card">
+                        <i class="fa-solid fa-window-maximize skill-icon"></i>
+                        <span>Pandas</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="hero-section">
+                <div class="hero-content">
+                    <h1 data-i18n="aboutTitle">Who Am I?</h1>
+                    <p data-i18n="aboutDesc">I am a software developer with a passion for creating interactive
+                        applications. I have a strong
+                        foundation in web and mobile development and love learning new technologies.</p>
+                </div>
+            </div>
+
+            <div class="timeline">
+                <h2 style="margin-top: 1rem;margin-bottom: 1rem;" data-i18n="learningJourney">Learning Journey</h2>
+                <div class="timeline-items">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-year">2024</div>
+                        <div class="timeline-content">
+                            <h3 data-i18n="internshipTitle">Internship</h3>
+                            <p data-i18n="internshipDesc">I did an internship at a company called DizaynPack</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-year">2025 June</div>
+                        <div class="timeline-content">
+                            <h3 data-i18n="graduationTitle">Graduation</h3>
+                            <p data-i18n="graduationDesc">I graduated from Borusan Asım Kocabıyık MTAL</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-year">2025 September</div>
+                        <div class="timeline-content">
+                            <h3 data-i18n="educationTitle">Education</h3>
+                            <p data-i18n="educationDesc">I started the software engineering department at Atatürk
+                                University.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h1 class="page-title" data-i18n="projectsTitle">Projects</h1>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-window-maximize"
+                            style="font-size: 2rem; color: var(--primary-color);"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3 data-i18n="project1Title">Smart Study Scheduler</h3>
+                        <p data-i18n="project1Desc">This app will be coming soon. This app will be a nice cross-platform
+                            app that can create a study schedule.</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-chart-line" style="font-size: 2rem; color: var(--primary-color);"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3 data-i18n="project2Title">Cuzdan Dostu</h3>
+                        <p data-i18n="project2Desc">Take control of both your shopping and your finances with this site!</p>
+                    </div>
+                    <a href="https://cuzdan-dostu.vercel.app/" class="btn" data-i18n="goProjectBtn">Go to Project!</a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-comments" style="font-size: 2rem; color: var(--primary-color);"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3 data-i18n="project3Title">AR-based virtual fitting room</h3>
+                        <p data-i18n="project3Desc">The opportunity to try on clothes without going to the store!</p>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-bag-shopping" style="font-size: 2rem; color: var(--primary-color);"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3 data-i18n="project4Title">Coming soon</h3>
+                        <p data-i18n="project4Desc">Coming soon</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--News Section -->
+        <section id="news">
+            <h1 class="page-title" data-i18n="newsTitle">Latest News</h1>
+            <div class="news-container">
+                <div class="news-card">
+                    <div class="news-icon">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <div class="news-content">
+                        <h2 data-i18n="wolfAiTitle">Wolf AI</h2>
+                        <p data-i18n="wolfAiDesc">Coming Soon - An exciting new AI project is in development!</p>
+                        <span class="news-badge">COMING SOON</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="contact-container">
+                <div class="contact-form-section">
+                    <h1 class="page-title" style="margin-bottom: 1rem;" data-i18n="contactTitle">Contact</h1>
+                    <p style="color: var(--text-muted); margin-bottom: 2rem; font-size: 1.1rem;"
+                        data-i18n="contactDesc">
+                        I'd love to hear from you! Please fill out this form and I will get in touch with you as soon as
+                        possible.
+                    </p>
+
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="from_name" class="form-input" placeholder="Name"
+                                data-i18n-placeholder="namePlaceholder" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="from_email" class="form-input" placeholder="Email"
+                                data-i18n-placeholder="emailPlaceholder" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" class="form-textarea" placeholder="Message"
+                                data-i18n-placeholder="messagePlaceholder" required></textarea>
+                        </div>
+                        <button type="submit" class="btn" data-i18n="sendBtn">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="contact-info-wrapper">
+                    <div class="hero-image" style="margin-bottom: 2rem;">
+                        <img src="img/contact-illustration.png" alt="Contact Illustration"
+                            onerror="this.style.display='none'">
+                    </div>
+
+                    <div class="contact-info-section">
+                        <h2 style="margin-bottom: 1.5rem;" data-i18n="contactInfoTitle">Contact Information</h2>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-envelope" style="color: var(--text-muted);"></i>
+                            <span>hamza61tiryaki@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h3 style="margin-bottom: 1rem; font-size: 1.25rem;">Follow Me</h3>
+                        <div class="social-icons">
+                            <a href="https://github.com/Hamza1-6Tiryaki" target="_blank" rel="noopener noreferrer"
+                                class="social-icon" title="GitHub">
+                                <i class="fa-brands fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/hamza-tiryaki-3a981b296" target="_blank"
+                                rel="noopener noreferrer" class="social-icon" title="LinkedIn">
+                                <i class="fa-brands fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://bionluk.com/hamzatiryaki" target="_blank" rel="noopener noreferrer"
+                                class="social-icon" title="Bionluk">
+                                <i class="fa-solid fa-briefcase"></i>
+                                <span>Bionluk</span>
+                            </a>
+                            <a href="https://wa.me/905302546126" target="_blank" rel="noopener noreferrer"
+                                class="social-icon" title="Whatsapp">
+                                <i class="fa-brands fa-whatsapp"></i>
+                                <span>Whatsapp</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
