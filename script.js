@@ -79,9 +79,8 @@ const sourceTexts = {
     projectsTitle: "Projects",
     project1Title: "Smart Study Scheduler",
     project1Desc: "This app will be coming soon. This app will be a nice cross-platform app that can create a study schedule.",
-    project2Title: "Cuzdan Dostu",
+    project2Title: "Coming soon",
     project2Desc: "Coming soon",
-    project2Btn: "Coming soon",
     project3Title: "AR-based virtual fitting room",
     project3Desc: "The opportunity to try on clothes without going to the store!",
     project4Title: "Coming soon",
@@ -105,7 +104,7 @@ const sourceTexts = {
 };
 
 // Names/placeholders that must not be translated
-const PROTECTED_TERMS = ['Wolf AI', 'DizaynPack', 'Borusan Asım Kocabıyık MTAL', 'Cuzdan Dostu'];
+const PROTECTED_TERMS = ['Wolf AI', 'DizaynPack', 'Borusan Asım Kocabıyık MTAL'];
 const PROTECTED_REGEX = new RegExp(
     PROTECTED_TERMS.map(term => term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + '|\\{\\w+\\}',
     'g'
